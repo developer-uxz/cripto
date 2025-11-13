@@ -281,7 +281,7 @@ export default function Features(props) {
           </div>
           <div className="absolute -top-32 right-0 -z-10">
             <img
-              src="token-sale-shape.svg"
+              src={`${process.env.PUBLIC_URL}/token-sale-shape.svg`}
               alt="shape"
               width={311}
               height={768}

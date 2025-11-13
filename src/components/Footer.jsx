@@ -12,7 +12,7 @@ export default function Footer(props) {
             <div className="mb-14 max-w-[330px] xl:mb-20">
               <a href="/" className="mb-6 inline-block">
                 <img
-                  src={props.mode === "dark" ? "/logo-light.svg" : "/logo-dark.svg"}
+                  src={props.mode === "dark" ? `${process.env.PUBLIC_URL}/logo-light.svg` : `${process.env.PUBLIC_URL}/logo-dark.svg`}
                   alt="Site Logo"
                   className="h-12 w-auto transition duration-300"
                 />

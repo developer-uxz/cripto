@@ -4,22 +4,22 @@ const teamMembers = [
   {
     name: "Matheus Ferrero",
     role: "Marketing Expert",
-    image: "image-01.webp",
+    image:`${process.env.PUBLIC_URL}/image-01.webp`,
   },
   {
     name: "Eva Hudson",
     role: "Blockchain Developer",
-    image: "image-02.webp",
+    image: `${process.env.PUBLIC_URL}/image-02.webp`,
   },
   {
     name: "Jackie Sanders",
     role: "Creative Designer",
-    image: "image-03.webp",
+    image: `${process.env.PUBLIC_URL}/image-03.webp`,
   },
   {
     name: "Liam Turner",
     role: "UI/UX Specialist",
-    image: "image-04.webp",
+    image:`${process.env.PUBLIC_URL}/image-04.webp`,
   },
 ];
 export default function Team(props) {

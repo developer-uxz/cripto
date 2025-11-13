@@ -133,9 +133,9 @@ export default function Faqs(props) {
       </div>
       </motion.div>
     </section>
-    <div className="absolute top-[7110px] -bottom-36 left-0 z-10"><img alt="shape" loading="lazy" width="206" height="637" decoding="async" data-nimg="1" src="faq-shape-1.svg" style={{color: "transparent;"}}/></div>
+    <div className="absolute top-[7110px] -bottom-36 left-0 z-10"><img alt="shape" loading="lazy" width="206" height="637" decoding="async" data-nimg="1" src={`${process.env.PUBLIC_URL}/faq-shape-1.svg`} style={{color: "transparent;"}}/></div>
 
-    <div className="absolute top-[6520px] right-0 z-10"><img alt="shape" loading="lazy" width="172" height="517" decoding="async" data-nimg="1" src="faq-shape-2.svg" style={{color: "transparent;"}}/></div>
+    <div className="absolute top-[6520px] right-0 z-10"><img alt="shape" loading="lazy" width="172" height="517" decoding="async" data-nimg="1" src={`${process.env.PUBLIC_URL}/faq-shape-2.svg`} style={{color: "transparent;"}}/></div>
     </div>
   )
 }

@@ -126,8 +126,8 @@ export default function Para(props) {
                     backgroundImage: "linear-gradient(rgba(49, 118, 247, 1) 0%, rgba(106, 158, 255, 0) 100%)"
                 }}
             ></div>
-            <img alt="shape" loading="lazy" width="411" height="276" decoding="async" data-nimg="1" className="absolute left-0 top-0 z-10" src="hero-shape-1.svg" style={{ color: "transparent" }} />
-            <img alt="shape" loading="lazy" width="820" height="692" decoding="async" data-nimg="1" className="absolute right-0 top-0 z-10" src="hero-shape-2.svg" style={{ color: "transparent" }}></img>
+            <img alt="shape" loading="lazy" width="411" height="276" decoding="async" data-nimg="1" className="absolute left-0 top-0 z-10" src={`${process.env.PUBLIC_URL}/hero-shape-1.svg`} style={{ color: "transparent" }} />
+            <img alt="shape" loading="lazy" width="820" height="692" decoding="async" data-nimg="1" className="absolute right-0 top-0 z-10" src={`${process.env.PUBLIC_URL}/hero-shape-2.svg`} style={{ color: "transparent" }}></img>
 
 
                 <motion.div
@@ -162,7 +162,7 @@ export default function Para(props) {
                                             height="40"
                                             decoding="async"
                                             className="mx-auto h-10 text-center"
-                                            src="uideck.svg"
+                                            src={`${process.env.PUBLIC_URL}/uideck.svg`}
                                             style={{ color: "transparent" }}
                                         />
                                     </a>
@@ -183,7 +183,7 @@ export default function Para(props) {
                                             height="40"
                                             decoding="async"
                                             className="mx-auto h-10 text-center"
-                                            src="tailgrids.svg"
+                                            src={`${process.env.PUBLIC_URL}/tailgrids.svg`}
                                             style={{ color: "transparent" }}
                                         />
                                     </a>
@@ -204,7 +204,7 @@ export default function Para(props) {
                                             height="40"
                                             decoding="async"
                                             className="mx-auto h-10 text-center"
-                                            src="lineicons.svg"
+                                            src={`${process.env.PUBLIC_URL}/lineicons.svg`}
                                             style={{ color: "transparent" }}
                                         />
                                     </a>
@@ -225,7 +225,7 @@ export default function Para(props) {
                                             height="40"
                                             decoding="async"
                                             className="mx-auto h-10 text-center"
-                                            src="ayroui.svg"
+                                            src={`${process.env.PUBLIC_URL}/ayroui.svg`}
                                             style={{ color: "transparent" }}
                                         />
                                     </a>
@@ -246,7 +246,7 @@ export default function Para(props) {
                                             height="40"
                                             decoding="async"
                                             className="mx-auto h-10 text-center"
-                                            src="plainadmin.svg"
+                                            src={`${process.env.PUBLIC_URL}/plainadmin.svg`}
                                             style={{ color: "transparent" }}
                                         />
                                     </a>

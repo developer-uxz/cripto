@@ -284,7 +284,7 @@ export default function Support(props) {
                         {/* Shape Image */}
                         <div className="absolute top-0 right-0 -z-10">
                             <img
-                                src="newsletter-shape.svg"
+                                 src={`${process.env.PUBLIC_URL}/newsletter-shape.svg`}
                                 alt="shape"
                                 width="501"
                                 height="220"

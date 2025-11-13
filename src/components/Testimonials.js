@@ -4,28 +4,28 @@ const testimonials = [
   {
     name: "Jason Keys",
     role: "CEO & Founder @ Dreampeet",
-    image: "image-01 (1).webp",
+    image: `${process.env.PUBLIC_URL}/image-01 (1).webp`,
     quote:
       "I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and family.",
   },
   {
     name: "Mariya Merry",
     role: "CEO & Founder @ Betex",
-    image: "/image-02 (1).webp",
+    image: `${process.env.PUBLIC_URL}/image-02 (1).webp`,
     quote:
       "I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and family.",
   },
   {
     name: "Andria Jolly",
     role: "CEO & Founder @ CryptoX",
-    image: "/image-03 (1).webp",
+    image: `${process.env.PUBLIC_URL}/image-03 (1).webp`,
     quote:
       "I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and family.",
   },
   {
     name: "Devid Willium",
     role: "CEO & Founder @ Coinbase",
-    image: "/image-04 (1).webp",
+    image: `${process.env.PUBLIC_URL}/image-04 (1).webp`,
     quote:
       "I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and family.",
   },
@@ -78,7 +78,7 @@ export default function Testimonials(props) {
                 {/* Background shape */}
                 <div className="absolute top-0 right-0 z-[-1]">
                   <img
-                    src="testimonial-shape.svg"
+                     src={`${process.env.PUBLIC_URL}/testimonial-shape.svg`}
                     alt="shape"
                     className="w-[200px]"
                   />
@@ -214,14 +214,14 @@ export default function Testimonials(props) {
     <div className="font-bold text-2xl text-center">
   {/* Light mode image */}
   <img
-    src="app-image-2 (3).webp"
+    src={`${process.env.PUBLIC_URL}/app-image-2 (3).webp`}
     alt="app"
     className="block dark:hidden mx-auto"
   />
 
   {/* Dark mode image */}
   <img
-    src="app-image.webp"
+      src={`${process.env.PUBLIC_URL}/app-image.webp`}
     alt="app"
     className="hidden dark:block mx-auto"
   />
